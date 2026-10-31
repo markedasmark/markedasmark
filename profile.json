@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "login": "markedasmark",
+  "seed": "#64D25C",
+  "seedFromAvatar": true,
+  "scheme": "fidelity",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "socials",
+    "about",
+    "stack",
+    "projects",
+    "stats",
+    "streak",
+    "wave",
+    "buttons"
+  ],
+  "hidden": [
+    "socials"
+  ],
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Mark!",
+    "subtitle": "I build interfaces and small useful tools.",
+    "typing": true,
+    "avatarShape": "soft",
+    "chips": [
+      {
+        "icon": "location_on",
+        "label": "Brazil"
+      },
+      {
+        "icon": "brush",
+        "label": "Future designer"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "items": [
+      {
+        "icon": "person",
+        "label": "Developer and designer"
+      },
+      {
+        "icon": "code",
+        "label": "Dotfiles"
+      },
+      {
+        "icon": "palette",
+        "label": "Love sharp corners and material design"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Tech stack",
+    "groups": [
+      {
+        "title": "Languages",
+        "items": [
+          {
+            "icon": "brand:csswizardry",
+            "label": "CSS"
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          {
+            "icon": "brand:niri",
+            "label": "Niri"
+          },
+          {
+            "icon": "brand:hyprland",
+            "label": "Hyprland"
+          },
+          {
+            "icon": "brand:gtk",
+            "label": "Waybar"
+          },
+          {
+            "icon": "brand:alacritty",
+            "label": "Alacritty"
+          },
+          {
+            "icon": "brand:zdotai",
+            "label": "Z.ai (assist)"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "pinned",
+    "repos": [
+      "pixel-garden",
+      "tiny-weather",
+      "echo-bot",
+      "dotfiles"
+    ],
+    "overrides": {},
+    "empty": "No description yet.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "GitHub activity",
+    "stars": "Stars earned",
+    "contributions": "Contributions this year",
+    "repos": "Public repos",
+    "followers": "Followers",
+    "calendar": "Last 21 days",
+    "weekdays": "SMTWTFS",
+    "languages": "Languages across my repositories",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Streak",
+    "current": "Current streak",
+    "longest": "Longest this year",
+    "days": "days"
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:telegram",
+        "url": "https://t.me/"
+      },
+      {
+        "icon": "brand:discord",
+        "url": "https://discord.com/"
+      },
+      {
+        "icon": "brand:x",
+        "url": "https://x.com/"
+      }
+    ],
+    "variant": "chip",
+    "fill": "tonal",
+    "card": true
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "language",
+        "label": "My website",
+        "url": "https://markedasmark.github.io",
+        "style": "tonal"
+      }
+    ]
+  }
+}
